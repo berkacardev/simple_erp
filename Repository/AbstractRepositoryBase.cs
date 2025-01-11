@@ -45,6 +45,18 @@ namespace Repository
             return this.reosurce.GetResource();
         }
 
-        abstract public T Update(T t);
+        public T Update(T t)
+        {
+            if (this.GetAll().Contains(t))
+            {
+                this.GetAll().Remove(t);
+                this.Add(t);
+                return t;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

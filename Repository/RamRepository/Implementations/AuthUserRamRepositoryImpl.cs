@@ -16,10 +16,5 @@ namespace Repository.RamRepository.Implementations
         {
 
         }
-
-        public override AuthUser Update(AuthUser t)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

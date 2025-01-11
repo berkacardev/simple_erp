@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomComponents\CustomListviewItem.cs" />
     <Compile Include="CustomersUI.cs">
       <SubType>Form</SubType>
     </Compile>

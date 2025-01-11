@@ -45,8 +45,12 @@
     <Compile Include="IRepositoryBase.cs" />
     <Compile Include="RamRepository\Implementations\AuthUserRamRepositoryImpl.cs" />
     <Compile Include="AbstractRepositoryBase.cs" />
+    <Compile Include="RamRepository\Implementations\CustomerRamRepositoryImpl.cs" />
+    <Compile Include="RamRepository\Implementations\ProductRamRepositoryImpl.cs" />
     <Compile Include="Resources\AbstractResource.cs" />
     <Compile Include="Resources\AuthUserDummyResource.cs" />
+    <Compile Include="Resources\CustomerDummyResource.cs" />
+    <Compile Include="Resources\ProductDummyResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">

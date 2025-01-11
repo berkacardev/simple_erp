@@ -62,15 +62,9 @@ namespace UserInterfaceWF
         private void OpenSalesUIFormOnTabControl()
         {
             SalesUI salesUI = (SalesUI)Application.OpenForms["SalesUI"];
-            if (salesUI == null)
-            {
-                salesUI = new SalesUI();
-                tabControl.TabPages.Add(salesUI);
-            }
-            else
-            {
-                tabControl.TabPages[salesUI].Select();
-            }
+            salesUI = new SalesUI();
+            tabControl.TabPages.Add(salesUI);
         }
+
     }
 }

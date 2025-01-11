@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Net Projeler\\Simple_ERP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25F9308B-71AE-4A7D-9721-1DAC80354AE0}|Service\\Service.csproj|d:\\net projeler\\simple_erp\\service\\implementations\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F9308B-71AE-4A7D-9721-1DAC80354AE0}|Service\\Service.csproj|solutionrelative:service\\implementations\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductServiceImpl.cs",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\Service\\Implementations\\ProductServiceImpl.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\ProductServiceImpl.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\Service\\Implementations\\ProductServiceImpl.cs",
+              "RelativeToolTip": "Service\\Implementations\\ProductServiceImpl.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwvzwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:44:24.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsUI.cs",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs",
+              "RelativeDocumentMoniker": "UserInterfaceWF\\ProductsUI.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs",
+              "RelativeToolTip": "UserInterfaceWF\\ProductsUI.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAArwHAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:40:28.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsUI.cs [Design]",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs",
+              "RelativeDocumentMoniker": "UserInterfaceWF\\ProductsUI.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs [Design]",
+              "RelativeToolTip": "UserInterfaceWF\\ProductsUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:39:35.155Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "61a80134-2ab8-4899-8f7e-87f570293451",
+        "Display": 1,
+        "X": 637,
+        "Y": -12,
+        "Width": 1266,
+        "Height": 801,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersUI.cs [Design]",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs",
+              "RelativeDocumentMoniker": "UserInterfaceWF\\CustomersUI.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs [Design]",
+              "RelativeToolTip": "UserInterfaceWF\\CustomersUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:39:20.691Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersUI.cs",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs",
+              "RelativeDocumentMoniker": "UserInterfaceWF\\CustomersUI.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs",
+              "RelativeToolTip": "UserInterfaceWF\\CustomersUI.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAvwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T22:39:24.244Z",
+              "EditorCaption": ""
             }
           ]
         }

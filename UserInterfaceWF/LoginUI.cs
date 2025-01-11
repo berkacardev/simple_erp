@@ -1,4 +1,5 @@
 ﻿using Model;
+using Service;
 using Service.Implementations;
 using System;
 using System.Collections.Generic;
@@ -14,11 +15,11 @@ namespace UserInterfaceWF
 {
     public partial class LoginUI : Form
     {
-        private Service.IAuthenticationService authenticationService;
+        private IAuthenticationService authenticationService;
         public LoginUI()
         {
-            InitializeComponent();
             authenticationService = new AuthenticationServiceImpl();
+            InitializeComponent();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
