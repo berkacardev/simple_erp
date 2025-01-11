@@ -1,0 +1,6 @@
+D:\Net Projeler\Simple_ERP\Entity\bin\Debug\Entity.dll
+D:\Net Projeler\Simple_ERP\Entity\bin\Debug\Entity.pdb
+D:\Net Projeler\Simple_ERP\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+D:\Net Projeler\Simple_ERP\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\Net Projeler\Simple_ERP\Entity\obj\Debug\Entity.dll
+D:\Net Projeler\Simple_ERP\Entity\obj\Debug\Entity.pdb

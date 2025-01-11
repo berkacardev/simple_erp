@@ -1,0 +1,11 @@
+D:\Net Projeler\Simple_ERP\Utility\bin\Debug\Utility.dll
+D:\Net Projeler\Simple_ERP\Utility\bin\Debug\Utility.pdb
+D:\Net Projeler\Simple_ERP\Utility\bin\Debug\Entity.dll
+D:\Net Projeler\Simple_ERP\Utility\bin\Debug\Model.dll
+D:\Net Projeler\Simple_ERP\Utility\bin\Debug\Entity.pdb
+D:\Net Projeler\Simple_ERP\Utility\bin\Debug\Model.pdb
+D:\Net Projeler\Simple_ERP\Utility\obj\Debug\Utility.csproj.AssemblyReference.cache
+D:\Net Projeler\Simple_ERP\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+D:\Net Projeler\Simple_ERP\Utility\obj\Debug\Utility.csproj.Up2Date
+D:\Net Projeler\Simple_ERP\Utility\obj\Debug\Utility.dll
+D:\Net Projeler\Simple_ERP\Utility\obj\Debug\Utility.pdb
