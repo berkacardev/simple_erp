@@ -13,7 +13,7 @@ namespace Service.Implementations
 {
     public class AuthenticationServiceImpl : IAuthenticationService
     {
-        private IAuthUserRepository AuthUserRepository;
+        private AbstractRepositoryBase<AuthUser> AuthUserRepository;
         private static AuthUserModel AuthUserModel = null;
 
         public AuthenticationServiceImpl()

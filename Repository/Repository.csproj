@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IAuthUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IRepositoryBase.cs" />
     <Compile Include="RamRepository\Implementations\AuthUserRamRepositoryImpl.cs" />
+    <Compile Include="AbstractRepositoryBase.cs" />
+    <Compile Include="Resources\AbstractResource.cs" />
+    <Compile Include="Resources\AuthUserDummyResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">

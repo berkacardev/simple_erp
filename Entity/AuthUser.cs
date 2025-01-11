@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class AuthUser
+    public class AuthUser : BaseEntity
     {
         public AuthUser(string userName, string userPassword)
         {
@@ -19,7 +19,6 @@ namespace Entity
             this.UserName = userName;
             this.UserPassword = userPassword;
         }
-        public int Id { get; set; }
         public string UserName { get; set; }
         public string UserPassword { get; set; }
         public DateTime LastLoginDateTime { get; set; }
