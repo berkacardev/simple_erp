@@ -54,7 +54,6 @@ namespace UserInterfaceWF
             txtProductId.Text = productModel.ProductId.ToString();
             txtProductName.Text = productModel.ProductName.ToString();
             txtProductPurchasePrice.Text = productModel.ProductPurchasePrice.ToString();
-            txtProductProfit.Text = productModel.ProductProfit.ToString();
             txtProductSalesPrice.Text = productModel.ProductSalesPrice.ToString();
             txtProductFirstStockQuantity.Text = productModel.ProductFirstStockQuantity.ToString();
             lblProductLastStockQuantity.Text = productModel.ProductLastStockQuantity.ToString();
@@ -62,21 +61,36 @@ namespace UserInterfaceWF
 
         private void btnSaveProduct_Click(object sender, EventArgs e)
         {
-            var item = new ProductModel(-1, txtProductName.Text, txtProductPurchasePrice.Text, txtProductProfit.Text, txtProductSalesPrice.Text, txtProductFirstStockQuantity.Text, txtProductFirstStockQuantity.Text);
-            var result = ProductService.CreateProduct(item);
-            ListViewItem listViewItem = new CustomListviewItem();
-            listViewItem.Tag = result;
-            listViewItem.Text = result.ToString();
-            lstViewProducts.Items.Add(listViewItem);
-            lstViewProducts.Update();
+            try
+            {
+                var item = new ProductModel(-1, txtProductName.Text, txtProductPurchasePrice.Text, txtProductSalesPrice.Text, txtProductFirstStockQuantity.Text, txtProductFirstStockQuantity.Text);
+                var result = ProductService.CreateProduct(item);
+                ListViewItem listViewItem = new CustomListviewItem();
+                listViewItem.Tag = result;
+                listViewItem.Text = result.ToString();
+                lstViewProducts.Items.Add(listViewItem);
+                lstViewProducts.Update();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnDeleteProduct_Click(object sender, EventArgs e)
         {
-            ListViewItem listViewItem = (ListViewItem)lstViewProducts.SelectedItem;
-            var item = (ProductModel)listViewItem.Tag;
-            ProductService.DeleteProduct(item);
-            RefreshOrLoadCustomerList();
+            try
+            {
+                ListViewItem listViewItem = (ListViewItem)lstViewProducts.SelectedItem;
+                var item = (ProductModel)listViewItem.Tag;
+                ProductService.DeleteProduct(item);
+                RefreshOrLoadCustomerList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+            }
         }
         private void RefreshOrLoadCustomerList()
         {
@@ -92,25 +106,38 @@ namespace UserInterfaceWF
 
         private void btnCreateNewProduct_Click(object sender, EventArgs e)
         {
-            ShowProductDetail(new ProductModel(-1, "", "", "", "", "", ""));
-            btnInsertProduct.Hide();
-            btnDeleteProduct.Hide();
+            try
+            {
+                ShowProductDetail(new ProductModel(-1, "", "", "", "", ""));
+                btnInsertProduct.Hide();
+                btnDeleteProduct.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnInsertProduct_Click(object sender, EventArgs e)
         {
-            ListViewItem listViewItem = (ListViewItem)lstViewProducts.SelectedItem;
-            var item = (ProductModel)listViewItem.Tag;
-            item.ProductName = txtProductName.Text;
-            item.ProductPurchasePrice = txtProductPurchasePrice.Text;
-            item.ProductProfit = txtProductProfit.Text;
-            item.ProductSalesPrice = txtProductSalesPrice.Text;
-            item.ProductFirstStockQuantity = txtProductFirstStockQuantity.Text;
-            var result = ProductService.InsertProduct(item);
-            ShowProductDetail(result);
-            int selectedIndex = lstViewProducts.SelectedIndex;
-            RefreshOrLoadCustomerList();
-            lstViewProducts.SelectedIndex = selectedIndex;
+            try
+            {
+                ListViewItem listViewItem = (ListViewItem)lstViewProducts.SelectedItem;
+                var item = (ProductModel)listViewItem.Tag;
+                item.ProductName = txtProductName.Text;
+                item.ProductPurchasePrice = txtProductPurchasePrice.Text;
+                item.ProductSalesPrice = txtProductSalesPrice.Text;
+                item.ProductFirstStockQuantity = txtProductFirstStockQuantity.Text;
+                var result = ProductService.InsertProduct(item);
+                ShowProductDetail(result);
+                int selectedIndex = lstViewProducts.SelectedIndex;
+                RefreshOrLoadCustomerList();
+                lstViewProducts.SelectedIndex = selectedIndex;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

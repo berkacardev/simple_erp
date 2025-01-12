@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllSalesUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllSalesUI.Designer.cs">
+      <DependentUpon>AllSalesUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomComponents\CustomListviewItem.cs" />
     <Compile Include="CustomersUI.cs">
       <SubType>Form</SubType>
@@ -83,6 +89,9 @@
     <Compile Include="SalesUI.Designer.cs">
       <DependentUpon>SalesUI.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AllSalesUI.resx">
+      <DependentUpon>AllSalesUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomersUI.resx">
       <DependentUpon>CustomersUI.cs</DependentUpon>
     </EmbeddedResource>

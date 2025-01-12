@@ -24,3 +24,4 @@ D:\Net Projeler\Simple_ERP\UserInterfaceWF\bin\Debug\MdiTabControl.dll
 D:\Net Projeler\Simple_ERP\UserInterfaceWF\obj\Debug\UserInterfaceWF.CustomersUI.resources
 D:\Net Projeler\Simple_ERP\UserInterfaceWF\obj\Debug\UserInterfaceWF.ProductsUI.resources
 D:\Net Projeler\Simple_ERP\UserInterfaceWF\obj\Debug\UserInterfaceWF.SalesUI.resources
+D:\Net Projeler\Simple_ERP\UserInterfaceWF\obj\Debug\UserInterfaceWF.AllSalesUI.resources

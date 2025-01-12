@@ -46,7 +46,9 @@
     <Compile Include="Implementations\AuthenticationServiceImpl.cs" />
     <Compile Include="Implementations\CustomerServiceImpl.cs" />
     <Compile Include="Implementations\ProductServiceImpl.cs" />
+    <Compile Include="Implementations\SalesServiceImpl.cs" />
     <Compile Include="IProductService.cs" />
+    <Compile Include="ISalesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

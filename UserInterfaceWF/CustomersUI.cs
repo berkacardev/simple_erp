@@ -55,47 +55,73 @@ namespace UserInterfaceWF
 
         private void btnCreateNewCustomer_Click(object sender, EventArgs e)
         {
-            ShowCustomerDetail(new CustomerModel(-1, "", "", "", "", ""));
-            btnInsertCustomer.Hide();
-            btnDeleteCustomer.Hide();
+            try
+            {
+                ShowCustomerDetail(new CustomerModel(-1, "", "", "", "", ""));
+                btnInsertCustomer.Hide();
+                btnDeleteCustomer.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnSaveCustomer_Click(object sender, EventArgs e)
         {
-            var item = new CustomerModel(-1, txtCustomerName.Text, txtCustomerSurname.Text, txtCustomerPhoneNumber.Text, txtCustomerEmailAdress.Text, txtCustomerAdress.Text);
-            var result = CustomerService.CreateCustomer(item);
-            ListViewItem listViewItem = new CustomListviewItem();
-            listViewItem.Tag = result;
-            listViewItem.Text = result.ToString();
-            lstViewCustomers.Items.Add(listViewItem);
-            lstViewCustomers.Update();
+            try
+            {
+                var item = new CustomerModel(-1, txtCustomerName.Text, txtCustomerSurname.Text, txtCustomerPhoneNumber.Text, txtCustomerEmailAdress.Text, txtCustomerAdress.Text);
+                var result = CustomerService.CreateCustomer(item);
+                ListViewItem listViewItem = new CustomListviewItem();
+                listViewItem.Tag = result;
+                listViewItem.Text = result.ToString();
+                lstViewCustomers.Items.Add(listViewItem);
+                lstViewCustomers.Update();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnDeleteCustomer_Click(object sender, EventArgs e)
         {
-            ListViewItem listViewItem = (ListViewItem)lstViewCustomers.SelectedItem;
-            var item = (CustomerModel)listViewItem.Tag;
-            CustomerService.DeleteCustomer(item);
-            RefreshOrLoadCustomerList();
+            try
+            {
+                ListViewItem listViewItem = (ListViewItem)lstViewCustomers.SelectedItem;
+                var item = (CustomerModel)listViewItem.Tag;
+                CustomerService.DeleteCustomer(item);
+                RefreshOrLoadCustomerList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
 
         private void btnInsertCustomer_Click(object sender, EventArgs e)
         {
-            ListViewItem listViewItem = (ListViewItem)lstViewCustomers.SelectedItem;
-            var item = (CustomerModel)listViewItem.Tag;
-            item.CustomerName = txtCustomerName.Text;
-            item.CustomerSurname = txtCustomerSurname.Text;
-            item.CustomerPhoneNumber = txtCustomerPhoneNumber.Text;
-            item.CustomerEmailAdress = txtCustomerEmailAdress.Text;
-            item.CustomerAdress = txtCustomerAdress.Text;
-            var result = CustomerService.InsertCustomer(item);
-            ShowCustomerDetail(result);
-            int selectedIndex = lstViewCustomers.SelectedIndex;
-            RefreshOrLoadCustomerList();
-            lstViewCustomers.SelectedIndex = selectedIndex;
-
-
+            try
+            {
+                ListViewItem listViewItem = (ListViewItem)lstViewCustomers.SelectedItem;
+                var item = (CustomerModel)listViewItem.Tag;
+                item.CustomerName = txtCustomerName.Text;
+                item.CustomerSurname = txtCustomerSurname.Text;
+                item.CustomerPhoneNumber = txtCustomerPhoneNumber.Text;
+                item.CustomerEmailAdress = txtCustomerEmailAdress.Text;
+                item.CustomerAdress = txtCustomerAdress.Text;
+                var result = CustomerService.InsertCustomer(item);
+                ShowCustomerDetail(result);
+                int selectedIndex = lstViewCustomers.SelectedIndex;
+                RefreshOrLoadCustomerList();
+                lstViewCustomers.SelectedIndex = selectedIndex;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         private void RefreshOrLoadCustomerList()
         {

@@ -47,10 +47,12 @@
     <Compile Include="AbstractRepositoryBase.cs" />
     <Compile Include="RamRepository\Implementations\CustomerRamRepositoryImpl.cs" />
     <Compile Include="RamRepository\Implementations\ProductRamRepositoryImpl.cs" />
+    <Compile Include="RamRepository\Implementations\SalesRamRepositoryImpl.cs" />
     <Compile Include="Resources\AbstractResource.cs" />
     <Compile Include="Resources\AuthUserDummyResource.cs" />
     <Compile Include="Resources\CustomerDummyResource.cs" />
     <Compile Include="Resources\ProductDummyResource.cs" />
+    <Compile Include="Resources\SalesDummyResource.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">

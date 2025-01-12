@@ -12,8 +12,10 @@ namespace Repository.Resources
         private static List<Product> Products = new List<Product>();
         public ProductDummyResource() : base(Products)
         {
-            Products.Add(new Product(1,"CocaCola 2.5 LT",40,60,20,5,25));
-            Products.Add(new Product(2,"Pepsi 2.5 LT",30,45,50,2,38));
+            Products.Add(new Product(123,"CocaCola 2.5 LT",40,60,5,25));
+            Products.Add(new Product(215,"Pepsi 2.5 LT",30,45,2,38));
+            Products.Add(new Product(18,"Nescafe 200 Gram Paket",90,110,5,17));
+            Products.Add(new Product(99,"Uni-T Multimetre",600,700,1,1));
         }
     }
 }

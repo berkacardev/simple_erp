@@ -31,7 +31,10 @@ namespace UserInterfaceWF
         {
             OpenSalesUIFormOnTabControl();
         }
-
+        private void btnAllSales_Click(object sender, EventArgs e)
+        {
+            OpenAllSalesUIFormOnTabControl();
+        }
         private void OpenProductsUIFormOnTabControl()
         {
             ProductsUI productsUI = (ProductsUI)Application.OpenForms["ProductsUI"];
@@ -59,12 +62,26 @@ namespace UserInterfaceWF
                 tabControl.TabPages[customersUI].Select();
             }
         }
+        private void OpenAllSalesUIFormOnTabControl()
+        {
+            AllSalesUI allSalesUI = (AllSalesUI)Application.OpenForms["AllSalesUI"];
+            if (allSalesUI == null)
+            {
+                allSalesUI = new AllSalesUI();
+                tabControl.TabPages.Add(allSalesUI);
+            }
+            else
+            {
+                tabControl.TabPages[allSalesUI].Select();
+            }
+        }
         private void OpenSalesUIFormOnTabControl()
         {
             SalesUI salesUI = (SalesUI)Application.OpenForms["SalesUI"];
             salesUI = new SalesUI();
             tabControl.TabPages.Add(salesUI);
         }
+
 
     }
 }

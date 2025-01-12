@@ -43,9 +43,15 @@
   <ItemGroup>
     <Compile Include="Constants\GlobalConstants.cs" />
     <Compile Include="DependencyInjection\DependencyInjection.cs" />
+    <Compile Include="Exceptions\ProductFirstStockQuaintityIsNotNumericException.cs" />
+    <Compile Include="Exceptions\ProductIdIsNotNumericException.cs" />
+    <Compile Include="Exceptions\ProductIsNotFoundException.cs" />
+    <Compile Include="Exceptions\ProductPurchasePriceIsNotNumericException.cs" />
+    <Compile Include="Exceptions\ProductSalesPriceIsNotNumericException.cs" />
     <Compile Include="Exceptions\UserNameIsEmptyException.cs" />
     <Compile Include="Exceptions\UserPasswordIsEmptyException.cs" />
     <Compile Include="Exceptions\WrongUserNameOrPasswordException.cs" />
+    <Compile Include="Parser\GlobalParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -34,6 +34,7 @@
             this.picButtonSalesForm = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl = new MdiTabControl.TabControl();
+            this.btnAllSales = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonProductsForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonCustomersForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picButtonSalesForm)).BeginInit();
@@ -53,7 +54,7 @@
             // picButtonCustomersForm
             // 
             this.picButtonCustomersForm.Image = ((System.Drawing.Image)(resources.GetObject("picButtonCustomersForm.Image")));
-            this.picButtonCustomersForm.Location = new System.Drawing.Point(12, 191);
+            this.picButtonCustomersForm.Location = new System.Drawing.Point(12, 169);
             this.picButtonCustomersForm.Name = "picButtonCustomersForm";
             this.picButtonCustomersForm.Size = new System.Drawing.Size(127, 151);
             this.picButtonCustomersForm.TabIndex = 0;
@@ -63,7 +64,7 @@
             // picButtonSalesForm
             // 
             this.picButtonSalesForm.Image = ((System.Drawing.Image)(resources.GetObject("picButtonSalesForm.Image")));
-            this.picButtonSalesForm.Location = new System.Drawing.Point(12, 365);
+            this.picButtonSalesForm.Location = new System.Drawing.Point(12, 326);
             this.picButtonSalesForm.Name = "picButtonSalesForm";
             this.picButtonSalesForm.Size = new System.Drawing.Size(127, 151);
             this.picButtonSalesForm.TabIndex = 0;
@@ -75,7 +76,7 @@
             this.panel1.Controls.Add(this.tabControl);
             this.panel1.Location = new System.Drawing.Point(145, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(664, 504);
+            this.panel1.Size = new System.Drawing.Size(676, 504);
             this.panel1.TabIndex = 1;
             // 
             // tabControl
@@ -84,17 +85,28 @@
             this.tabControl.Location = new System.Drawing.Point(0, 0);
             this.tabControl.MenuRenderer = null;
             this.tabControl.Name = "tabControl";
-            this.tabControl.Size = new System.Drawing.Size(664, 504);
+            this.tabControl.Size = new System.Drawing.Size(676, 504);
             this.tabControl.TabCloseButtonImage = null;
             this.tabControl.TabCloseButtonImageDisabled = null;
             this.tabControl.TabCloseButtonImageHot = null;
             this.tabControl.TabIndex = 0;
             // 
+            // btnAllSales
+            // 
+            this.btnAllSales.Location = new System.Drawing.Point(12, 483);
+            this.btnAllSales.Name = "btnAllSales";
+            this.btnAllSales.Size = new System.Drawing.Size(127, 33);
+            this.btnAllSales.TabIndex = 2;
+            this.btnAllSales.Text = "Satışlar";
+            this.btnAllSales.UseVisualStyleBackColor = true;
+            this.btnAllSales.Click += new System.EventHandler(this.btnAllSales_Click);
+            // 
             // MainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 524);
+            this.ClientSize = new System.Drawing.Size(825, 550);
+            this.Controls.Add(this.btnAllSales);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.picButtonSalesForm);
             this.Controls.Add(this.picButtonCustomersForm);
@@ -117,5 +129,6 @@
         private System.Windows.Forms.PictureBox picButtonSalesForm;
         private System.Windows.Forms.Panel panel1;
         private MdiTabControl.TabControl tabControl;
+        private System.Windows.Forms.Button btnAllSales;
     }
 }

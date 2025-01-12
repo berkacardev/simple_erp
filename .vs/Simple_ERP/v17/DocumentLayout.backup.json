@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Net Projeler\\Simple_ERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25F9308B-71AE-4A7D-9721-1DAC80354AE0}|Service\\Service.csproj|d:\\net projeler\\simple_erp\\service\\implementations\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F9308B-71AE-4A7D-9721-1DAC80354AE0}|Service\\Service.csproj|solutionrelative:service\\implementations\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9262EBF8-788F-413B-9512-14FC11953CA2}|Utility\\Utility.csproj|d:\\net projeler\\simple_erp\\utility\\parser\\globalparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9262EBF8-788F-413B-9512-14FC11953CA2}|Utility\\Utility.csproj|solutionrelative:utility\\parser\\globalparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9262EBF8-788F-413B-9512-14FC11953CA2}|Utility\\Utility.csproj|d:\\net projeler\\simple_erp\\utility\\constants\\globalconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9262EBF8-788F-413B-9512-14FC11953CA2}|Utility\\Utility.csproj|solutionrelative:utility\\constants\\globalconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\productsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|d:\\net projeler\\simple_erp\\userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{61960607-EEED-4D55-BA17-CAEA8B033C5C}|UserInterfaceWF\\UserInterfaceWF.csproj|solutionrelative:userinterfacewf\\customersui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9262EBF8-788F-413B-9512-14FC11953CA2}|Utility\\Utility.csproj|d:\\net projeler\\simple_erp\\utility\\exceptions\\productidisnotnumericexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9262EBF8-788F-413B-9512-14FC11953CA2}|Utility\\Utility.csproj|solutionrelative:utility\\exceptions\\productidisnotnumericexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,49 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductServiceImpl.cs",
-              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\Service\\Implementations\\ProductServiceImpl.cs",
-              "RelativeDocumentMoniker": "Service\\Implementations\\ProductServiceImpl.cs",
-              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\Service\\Implementations\\ProductServiceImpl.cs",
-              "RelativeToolTip": "Service\\Implementations\\ProductServiceImpl.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAADwv0MAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T22:44:24.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsUI.cs",
-              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs",
-              "RelativeDocumentMoniker": "UserInterfaceWF\\ProductsUI.cs",
-              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs",
-              "RelativeToolTip": "UserInterfaceWF\\ProductsUI.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAArwHAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T22:40:28.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductsUI.cs [Design]",
-              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs",
-              "RelativeDocumentMoniker": "UserInterfaceWF\\ProductsUI.cs",
-              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\ProductsUI.cs [Design]",
-              "RelativeToolTip": "UserInterfaceWF\\ProductsUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T22:39:35.155Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
@@ -93,31 +47,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomersUI.cs [Design]",
-              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs",
-              "RelativeDocumentMoniker": "UserInterfaceWF\\CustomersUI.cs",
-              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs [Design]",
-              "RelativeToolTip": "UserInterfaceWF\\CustomersUI.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "GlobalParser.cs",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\Utility\\Parser\\GlobalParser.cs",
+              "RelativeDocumentMoniker": "Utility\\Parser\\GlobalParser.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\Utility\\Parser\\GlobalParser.cs",
+              "RelativeToolTip": "Utility\\Parser\\GlobalParser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T22:39:20.691Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-12T10:05:02.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomersUI.cs",
-              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs",
-              "RelativeDocumentMoniker": "UserInterfaceWF\\CustomersUI.cs",
-              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\UserInterfaceWF\\CustomersUI.cs",
-              "RelativeToolTip": "UserInterfaceWF\\CustomersUI.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAvwFQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductIdIsNotNumericException.cs",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\Utility\\Exceptions\\ProductIdIsNotNumericException.cs",
+              "RelativeDocumentMoniker": "Utility\\Exceptions\\ProductIdIsNotNumericException.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\Utility\\Exceptions\\ProductIdIsNotNumericException.cs",
+              "RelativeToolTip": "Utility\\Exceptions\\ProductIdIsNotNumericException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T22:39:24.244Z",
+              "WhenOpened": "2025-01-12T11:04:47.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalConstants.cs",
+              "DocumentMoniker": "D:\\Net Projeler\\Simple_ERP\\Utility\\Constants\\GlobalConstants.cs",
+              "RelativeDocumentMoniker": "Utility\\Constants\\GlobalConstants.cs",
+              "ToolTip": "D:\\Net Projeler\\Simple_ERP\\Utility\\Constants\\GlobalConstants.cs",
+              "RelativeToolTip": "Utility\\Constants\\GlobalConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T11:03:31.252Z",
               "EditorCaption": ""
             }
           ]

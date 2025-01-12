@@ -39,8 +39,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtProductSalesPrice = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtProductProfit = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtProductPurchasePrice = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtProductName = new System.Windows.Forms.TextBox();
@@ -63,8 +61,6 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtProductSalesPrice);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtProductProfit);
-            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtProductPurchasePrice);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtProductName);
@@ -73,7 +69,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(299, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(329, 441);
+            this.groupBox1.Size = new System.Drawing.Size(329, 435);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ürün Bilgileri";
@@ -103,7 +99,7 @@
             // 
             // btnCreateNewProduct
             // 
-            this.btnCreateNewProduct.Location = new System.Drawing.Point(249, 370);
+            this.btnCreateNewProduct.Location = new System.Drawing.Point(248, 355);
             this.btnCreateNewProduct.Name = "btnCreateNewProduct";
             this.btnCreateNewProduct.Size = new System.Drawing.Size(76, 71);
             this.btnCreateNewProduct.TabIndex = 2;
@@ -113,7 +109,7 @@
             // 
             // btnDeleteProduct
             // 
-            this.btnDeleteProduct.Location = new System.Drawing.Point(167, 370);
+            this.btnDeleteProduct.Location = new System.Drawing.Point(166, 355);
             this.btnDeleteProduct.Name = "btnDeleteProduct";
             this.btnDeleteProduct.Size = new System.Drawing.Size(76, 71);
             this.btnDeleteProduct.TabIndex = 2;
@@ -123,7 +119,7 @@
             // 
             // btnInsertProduct
             // 
-            this.btnInsertProduct.Location = new System.Drawing.Point(85, 370);
+            this.btnInsertProduct.Location = new System.Drawing.Point(84, 355);
             this.btnInsertProduct.Name = "btnInsertProduct";
             this.btnInsertProduct.Size = new System.Drawing.Size(76, 71);
             this.btnInsertProduct.TabIndex = 2;
@@ -133,7 +129,7 @@
             // 
             // btnSaveProduct
             // 
-            this.btnSaveProduct.Location = new System.Drawing.Point(3, 370);
+            this.btnSaveProduct.Location = new System.Drawing.Point(2, 355);
             this.btnSaveProduct.Name = "btnSaveProduct";
             this.btnSaveProduct.Size = new System.Drawing.Size(76, 71);
             this.btnSaveProduct.TabIndex = 2;
@@ -143,7 +139,7 @@
             // 
             // txtProductFirstStockQuantity
             // 
-            this.txtProductFirstStockQuantity.Location = new System.Drawing.Point(98, 228);
+            this.txtProductFirstStockQuantity.Location = new System.Drawing.Point(98, 190);
             this.txtProductFirstStockQuantity.Name = "txtProductFirstStockQuantity";
             this.txtProductFirstStockQuantity.Size = new System.Drawing.Size(218, 20);
             this.txtProductFirstStockQuantity.TabIndex = 1;
@@ -151,7 +147,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 231);
+            this.label6.Location = new System.Drawing.Point(6, 193);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 13);
             this.label6.TabIndex = 0;
@@ -159,7 +155,7 @@
             // 
             // txtProductSalesPrice
             // 
-            this.txtProductSalesPrice.Location = new System.Drawing.Point(98, 184);
+            this.txtProductSalesPrice.Location = new System.Drawing.Point(98, 148);
             this.txtProductSalesPrice.Name = "txtProductSalesPrice";
             this.txtProductSalesPrice.Size = new System.Drawing.Size(218, 20);
             this.txtProductSalesPrice.TabIndex = 1;
@@ -167,27 +163,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 187);
+            this.label5.Location = new System.Drawing.Point(6, 151);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Satış Fiyatı(TL) :";
-            // 
-            // txtProductProfit
-            // 
-            this.txtProductProfit.Location = new System.Drawing.Point(98, 144);
-            this.txtProductProfit.Name = "txtProductProfit";
-            this.txtProductProfit.Size = new System.Drawing.Size(218, 20);
-            this.txtProductProfit.TabIndex = 1;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 147);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Kar(%) :";
             // 
             // txtProductPurchasePrice
             // 
@@ -274,8 +254,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtProductSalesPrice;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtProductProfit;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtProductPurchasePrice;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtProductName;

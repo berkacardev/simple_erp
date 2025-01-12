@@ -24,16 +24,6 @@ namespace Model
         public string CustomerEmailAdress { get; set; }
         public string CustomerAdress { get; set; }
 
-        public override bool Equals(object obj)
-        {
-            return this.CustomerId == ((CustomerModel)obj).CustomerId;
-        }
-
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-
         public override string ToString()
         {
             return this.CustomerName + " " + this.CustomerSurname + " | " + "0" + this.CustomerPhoneNumber;

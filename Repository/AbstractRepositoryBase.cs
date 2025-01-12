@@ -36,7 +36,15 @@ namespace Repository
 
         public T Get(int id)
         {
-            return this.reosurce.GetResource().Where(u => u.Id == id).First();
+            List<T> results = this.reosurce.GetResource().Where(u => u.Id == id).ToList();
+            if(results.Count > 0)
+            {
+                return results.First();
+            }
+            else
+            {
+                return null;
+            }
         }
 
 
